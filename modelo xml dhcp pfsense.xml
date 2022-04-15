@@ -1,0 +1,11 @@
+
+<dhcpd>
+	<lan>
+		<staticmap>
+			<mac>b0:be:76:e2:c8:bc</mac>
+			<ipaddr>192.168.1.5</ipaddr>
+			<hostname>TL-SG108E</hostname>
+			<descr></descr>
+		</staticmap>
+	</lan>
+</dhcpd>

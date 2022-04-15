@@ -1,0 +1,205 @@
+# =============== IPs reservados para computadores da rede teste ===============
+
+host dsjnkdsnjjnd {
+	hardware ethernet	82:90:5a:6e:7b:47;
+	fixed-address 		192.168.136.2;
+}
+
+host njknfjknkefew {
+        hardware ethernet       46:02:e8:1e:c0:fa;
+        fixed-address           192.168.136.3;
+}
+
+host teste-zabbix {
+	hardware ethernet	02:97:15:ab:13:a4;
+	fixed-address		192.168.136.5;
+}
+
+host fwefwefwefwf {
+	hardware ethernet	f0:4d:a2:e3:92:4d;
+	fixed-address		192.168.136.10;
+}
+
+host fwefewff {
+        hardware ethernet       78:2b:cb:bf:b7:2d;
+        fixed-address           192.168.136.11;
+}
+
+host vvrsdgf {
+        hardware ethernet       00:0b:74:b5:81:49;
+        fixed-address           192.168.136.12;
+}
+
+#host dsfbdhjsbf23 {
+#	hardware ethernet	0e:72:58:c6:0a:59;
+#	fixed-address		192.168.136.187;
+#}
+
+host dsjfkb23hj {
+	hardware ethernet	0a:b1:4b:6d:43:25;
+	fixed-address		192.168.136.187;
+}
+
+host iffsdfds {
+	hardware ethernet	00:21:b7:9a:61:76;
+	fixed-address		192.168.136.13;
+}
+
+host camfewfwefwf_b {
+        hardware ethernet       00:14:d1:f0:7c:29;
+        fixed-address           192.168.136.14;
+}
+
+host cdsfbhsdfbjsdhb1 {
+        hardware ethernet       00:14:d1:f0:7c:24;
+        fixed-address           192.168.136.15;
+}
+
+host cdhsfbjdshbfso2 {
+        hardware ethernet       ac:cc:8e:03:d4:e0;
+        fixed-address           192.168.136.16;
+}
+
+host cam_ip_j_1 {
+        hardware ethernet       00:14:d1:f0:40:bd;
+        fixed-address           192.168.136.17;
+}
+
+host cam_ip_gwefffwec {
+        hardware ethernet       00:14:d1:f0:74:3f;
+        fixed-address           192.168.136.18;
+}
+
+host cam_ip_jq21 {
+        hardware ethernet       00:14:d1:f0:7c:28;
+        fixed-address           192.168.136.19;
+}
+
+host cam_ip_12df {
+        hardware ethernet       00:14:d1:f0:40:02;
+        fixed-address           192.168.136.20;
+}
+
+host cam_ip_1erfdw {
+        hardware ethernet       00:14:d1:f0:7f:90;
+        fixed-address           192.168.136.21;
+}
+
+host cam_cfrefreferfnf {
+        hardware ethernet       00:14:d1:f0:7c:23;
+        fixed-address           192.168.136.22;
+}
+
+host cfrefreferf {
+        hardware ethernet       11:11:11:11:11:11;
+        fixed-address           192.168.136.23;
+}
+
+host cafrefrefer {
+        hardware ethernet       22:22:22:22:22:22;
+        fixed-address           192.168.136.24;
+}
+
+host cfrefrefre{
+        hardware ethernet       00:14:d1:f0:7c:2a;
+        fixed-address           192.168.136.25;
+}
+
+host cagergerferf {
+        hardware ethernet       00:14:d1:f0:40:b7;
+        fixed-address           192.168.136.26;
+}
+
+host cafdgfdgfd {
+        hardware ethernet       ac:cc:8e:03:d4:e9;
+        fixed-address           192.168.136.27;
+}
+
+host pc_fjfnwekfnw {
+        hardware ethernet       4c:72:b9:56:e0:89;
+        fixed-address           192.168.136.28;
+}
+
+host frgggre {
+        hardware ethernet       00:1a:64:70:5c:a2;
+        fixed-address           192.168.136.29;
+}
+
+host serv_wefjnfwekfw {
+        hardware ethernet       18:a9:9b:ff:36:88;
+        fixed-address           192.168.136.30;
+}
+
+host dsfds34ffre {
+	hardware ethernet	00:16:41:68:1a:0d;
+	fixed-address		192.168.136.31;
+}
+
+host camera_pjfwknek1{
+	hardware ethernet	00:40:8c:d1:1d:36;
+	fixed-address		192.168.136.32;
+}
+
+host camera_fjwnfkjwenw_2{
+	hardware ethernet	00:40:8c:d1:1d:35;
+	fixed-address		192.168.136.33;
+}
+
+host camera_fwefwe203{
+	hardware ethernet 	ac:cc:8e:04:0d:49;
+	fixed-address		192.168.136.34;
+}
+
+host camfweffwe{	
+	hardware ethernet	00:40:8c:d1:1e:77;
+	fixed-address		192.168.136.35;
+}
+host camfsdfsda{
+	hardware ethernet	00:40:8c:d1:1e:bc;
+	fixed-address		192.168.136.36;
+}
+host cam_ip_bfsdfdsa03 {
+        hardware ethernet       ac:cc:8e:03:d5:07;
+        fixed-address           192.168.136.37;
+}
+
+host projeto_fsdfdsfsd {
+        hardware ethernet       A0:20:A6:21:30:1F;
+        fixed-address           192.168.136.202;
+}
+
+host cam_lab_6fsdfsfdsrios {
+	hardware ethernet	ac:cc:8e:04:0d:75;
+	fixed-address		192.168.136.38;
+}
+
+host cam_fdsfsfdsf{
+	hardware ethernet	00:40:8c:d1:1e:67;
+	fixed-address		192.168.136.39;
+}
+
+host cam_fsdfdsfds	{
+	hardware ethernet	ac:cc:8e:03:d4:ee;
+	fixed-address		192.168.136.40;
+}
+
+
+# Computadores para acesso ao XPTO 
+# Diretor - João
+# Coord Adm - Maria
+# DP - José
+
+host joao	{
+	hardware ethernet	 28:f1:0e:fd:02:c9;
+	fixed-address		 192.168.139.200;
+}
+
+host maria	{
+	hardware ethernet	 78:2b:cb:bf:b0:95;
+	fixed-address		 192.168.139.201;
+}
+
+host jose	{
+	hardware ethernet	 f0:4d:a2:e3:ba:c6;
+	fixed-address		 192.168.139.202;
+}
