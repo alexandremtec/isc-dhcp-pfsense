@@ -78,7 +78,8 @@ prepare_file
 split_file
 
 echo "<dhcpd>
-<$IFACE>" > $OUTFILE
+<$IFACE>
+<enable></enable>" > $OUTFILE
 
 data_marge
 echo "</$IFACE>
