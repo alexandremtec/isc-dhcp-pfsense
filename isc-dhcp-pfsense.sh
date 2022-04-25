@@ -29,17 +29,17 @@ make_temp_dir(){
 }
 
 prepare_file(){
-	egrep -v ^# $ARG > $FILEIN
+	egrep -v '^#' "$ARG" | sed -r 's/\;|\{|\}/ /g' > $FILEIN
 }
 
 # Divide o arquivo os campos do arquivo isc.txt em seus respectivos arquivos
 
 split_file(){
-	egrep 'hardware ethernet' $FILEIN | awk '{print $3}' | tr -d \; > $FILEMAC
+	grep -o 'ethernet.*' $FILEIN | awk '{print $2}' > $FILEMAC
 	echo MAC...done!
-	egrep '^host ' $FILEIN | awk '{print $2}' > $FILEHOST
+	grep '^host ' $FILEIN | awk '{print $2}' > $FILEHOST
 	echo HOST...done!
-	egrep 'fixed-address' $FILEIN | awk '{print $2}' | tr -d \; > $FILEIP
+	grep -o 'fixed-address.*' $FILEIN | awk '{print $2}' > $FILEIP
 	echo IP...done!
 	sleep 2
 	clear
